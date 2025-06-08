@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("/typographies/cooper-hewitt/CooperHewitt-Bold.woff2")
+  format("woff2");
+  font-display: swap;
+}
+
+@theme {
+  --font-cooperhewitt: "CooperHewitt", sans-serif;
+  --color-aguacate: #A0C55F;
+}
