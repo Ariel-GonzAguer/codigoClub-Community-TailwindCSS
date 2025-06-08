@@ -3,7 +3,6 @@ import { useState } from "react"
 export default function EjemploUsoPlugin() {
   const [mostrar, setMostrar] = useState(false)
 
-
   function handleClick() {
     setMostrar(!mostrar)
   }
